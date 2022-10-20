@@ -1,7 +1,8 @@
 #FROM ubuntu:18.04
 
 # Para que reconheça a GPU dentro do container
-FROM nvidia/cuda:10.2-cudnn7-runtime-ubuntu18.04 
+FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu18.04
+#FROM nvidia/cuda:10.2-cudnn7-runtime-ubuntu18.04 
 
 # Precisa passar um caminho para o miniconda
 ENV PATH="/root/miniconda3/bin:${PATH}"

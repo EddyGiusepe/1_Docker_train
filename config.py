@@ -1,6 +1,6 @@
 import transformers
 
-DEVICE = "cuda" #"cuda" ou "cpu"
+DEVICE = "cpu" #"cuda" ou "cpu"
 MAX_LEN = 32 # 512 --> Obviamente o treinamento será mais rápido porque diminuiu o comprimento 
 TRAIN_BATCH_SIZE = 8
 VALID_BATCH_SIZE = 4
